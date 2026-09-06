@@ -4,7 +4,8 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { X, Sparkles } from 'lucide-react'
 import { brand } from '@/lib/site'
-import { CountdownTimer, endOfMonth } from '@/components/countdown-timer'
+import { CountdownTimer } from '@/components/countdown-timer'
+import { endOfMonth } from '@/lib/dates'
 
 export function PromoPopup() {
   const [open, setOpen] = useState(false)

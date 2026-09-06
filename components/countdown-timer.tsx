@@ -16,11 +16,6 @@ function diff(target: Date): Parts {
 
 const pad = (n: number) => n.toString().padStart(2, '0')
 
-export function endOfMonth(): Date {
-  const now = new Date()
-  return new Date(now.getFullYear(), now.getMonth() + 1, 0, 23, 59, 59)
-}
-
 export function CountdownTimer({
   targetDate,
   variant = 'full',

@@ -6,7 +6,8 @@ import { brand, stats } from '@/lib/site'
 import { Container, LinkButton } from '@/components/ui-kit'
 import { ParticleNetwork } from '@/components/particle-network'
 import { Counter } from '@/components/counter'
-import { CountdownTimer, endOfMonth } from '@/components/countdown-timer'
+import { CountdownTimer } from '@/components/countdown-timer'
+import { endOfMonth } from '@/lib/dates'
 import { useState } from 'react'
 
 const easeOut = [0.22, 1, 0.36, 1] as const

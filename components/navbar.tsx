@@ -8,7 +8,8 @@ import { brand, services } from '@/lib/site'
 import { useTheme } from '@/components/theme-provider'
 import { DynamicIcon } from '@/components/service-icon'
 import { LinkButton, accent } from '@/components/ui-kit'
-import { CountdownTimer, endOfMonth } from '@/components/countdown-timer'
+import { CountdownTimer } from '@/components/countdown-timer'
+import { endOfMonth } from '@/lib/dates'
 import { cn } from '@/lib/utils'
 
 const navLinks = [
